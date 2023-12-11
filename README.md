@@ -12,6 +12,8 @@ Fragments are used to define and execute each task and helping toencapsulate the
 RunActivity
 This functionality create an activity to play a music either from a local storage or off an internet location.
 The activity runs in the foreground in the main thread and so no other activity can run concurrently. The required permission to run the activity are declared in the the manifest file.
+This activity streams a music from https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3 or plays a music download under ../res/raw folder;
+
 
 BindService
 This functionality creates a service at startup that is bound to the system. Upon user request, the service returns the system time and is displayed on the screen. 
